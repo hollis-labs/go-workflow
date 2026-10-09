@@ -1,5 +1,15 @@
 # Changelog
 
+## Repository retirement — 2026-10-09
+
+### Changed
+
+- Maintained development moved to [github.com/hollis-labs/libs/workflow](https://github.com/hollis-labs/libs/tree/workflow%2Fv0.1.0/workflow) in
+  `github.com/hollis-labs/libs/workflow@v0.1.0` (`workflow/v0.1.0`).
+- This standalone repository is retired after the replacement release was
+  verified fetchable with successful module CI. README migration instructions
+  identify the new import prefix; existing standalone tags and history are preserved.
+
 ## v0.1.0 — 2026-09-04
 
 The first standalone release of `github.com/hollis-labs/go-workflow` extracts

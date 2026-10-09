@@ -1,5 +1,22 @@
 # go-workflow
 
+## Maintenance moved to `github.com/hollis-labs/libs/workflow`
+
+This standalone repository is retired. Maintained source and documentation are
+in [github.com/hollis-labs/libs/workflow](https://github.com/hollis-labs/libs/tree/workflow%2Fv0.1.0/workflow), released in **`workflow/v0.1.0`**.
+Install the replacement module:
+
+```sh
+go get github.com/hollis-labs/libs/workflow@v0.1.0
+```
+
+Replace the `github.com/hollis-labs/go-workflow` import prefix with
+`github.com/hollis-labs/libs/workflow`, retaining the package subpath. Review the replacement documentation
+for any API changes before migrating. Existing standalone tags and history remain
+available; old module pins do not automatically redirect to the new module.
+
+The documentation below describes historical standalone usage.
+
 `go-workflow` is a deterministic, embeddable workflow engine for Go. It owns
 the portable graph, compiler, execution-plan, runtime state-machine, wait,
 typed-value, artifact, retry, fan-out, compensation, verification, memoization,
